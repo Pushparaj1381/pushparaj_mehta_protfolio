@@ -13,16 +13,16 @@ const Footer = () => {
       <div className="f-content">
         <span>contact@hpm.com.np</span>
         <div className="f-icons">
-          <a href="https://www.instagram.com/pushparaj1381/" target="_blank">
+          <a href="https://www.instagram.com/pushparaj1381/" target="_blank" rel="noreferrer">
             <Insta color="white" size={"3rem"} />
           </a>
-          <a href="https://www.facebook.com/profile.php?id=100029064882284" target="_blank">
+          <a href="https://www.facebook.com/profile.php?id=100029064882284" target="_blank" rel="noreferrer">
             <Facebook color="white" size={"3rem"} />
           </a>
-          <a href="https://github.com/Pushparaj1381" target="_blank">
+          <a href="https://github.com/Pushparaj1381" target="_blank" rel="noreferrer">
             <Gitub color="white" size={"3rem"} />
           </a>
-          <a href="https://www.linkedin.com/in/pushparaj-mehta-82a801206/?originalSubdomain=in" target="_blank">
+          <a href="https://www.linkedin.com/in/pushparaj-mehta-82a801206/?originalSubdomain=in" target="_blank" rel="noreferrer">
             <Linkedin color="white" size={"3rem"} />
           </a>
 
