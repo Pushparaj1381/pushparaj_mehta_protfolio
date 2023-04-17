@@ -27,10 +27,10 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hello! I Am</span>
           <span>Pushparaj Mehta</span>
           <span>
-            Frontend Developer with a lot of energy to tackle
+            Frontend Developer with a lot of energy to tackle any problem.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -81,7 +81,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="Ui/Ux" text2="Designer" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
