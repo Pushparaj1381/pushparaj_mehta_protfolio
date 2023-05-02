@@ -24,7 +24,7 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>Bringing your imaginative <br /> into reality</span>
+        <span style={{ color: darkMode ? "white" : "" }}>Bringing your imagination <br /> into reality</span>
         <span>with code and design</span>
         <spane>
           Transforming Ideas into Engaging Digital Experiences.
