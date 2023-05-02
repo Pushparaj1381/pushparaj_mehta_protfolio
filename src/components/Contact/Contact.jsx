@@ -11,7 +11,23 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
+    const name = form.current.user_name.value.trim();
+    const email = form.current.user_email.value.trim();
+    const message = form.current.message.value.trim();
+  
+    if (!name || !email || !message) {
+      alert("Please fill in all fields");
+      return;
+    }
+  
+    // Validate email format using regular expression
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      alert("Please enter a valid email address");
+      return;
+    }
+  
     emailjs
       .sendForm(
         "contact-servicepushparaj", // Used the service ID provided by emailjs
@@ -30,7 +46,7 @@ const Contact = () => {
         }
       );
   };
-
+  
   return (
     <div className="contact-form" id="contact">
       {/* left side copy and paste from work section */}
