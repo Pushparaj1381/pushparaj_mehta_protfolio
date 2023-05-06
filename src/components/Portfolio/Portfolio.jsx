@@ -24,7 +24,7 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide id="first_project">
-          <a href="https://evereststream.netlify.app/" target="_blank">
+          <a href="https://evereststream.netlify.app/" target="_blank"  rel="noreferrer">
             <img src={Sidebar} alt="" />
           </a>
           <p className="title">A movie site</p>
