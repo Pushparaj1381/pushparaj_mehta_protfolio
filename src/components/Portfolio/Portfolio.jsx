@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Portfolio.css";
-import { Swiper, SwiperSlide } from "swiper/react"
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Sidebar from "../../img/sidebar.png";
 import Ecommerce from "../../img/ecommerce.png";
@@ -13,7 +13,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
+      <span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
       <span>Portfolio</span>
 
       {/* slider */}
@@ -23,8 +23,11 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
-        <SwiperSlide>
-          <img src={Sidebar} alt="" />
+        <SwiperSlide id="first_project">
+          <a href="https://evereststream.netlify.app/" target="_blank">
+            <img src={Sidebar} alt="" />
+          </a>
+          <p className="title">A movie site</p>
         </SwiperSlide>
         <SwiperSlide>
           <img src={Ecommerce} alt="" />
